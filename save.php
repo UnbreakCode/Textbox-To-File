@@ -1,6 +1,6 @@
 
 <?php
-//Script coded by Niclxs1337 | Copyright: niclas.host
+//coded by Niclxs1337 | Copyright: niclas.host
 if(isset($_POST['field1'])) {
     $data = $_POST['field1'] .  "\r\n";
     $ret = file_put_contents('./Datei.txt', $data, FILE_APPEND | LOCK_EX);
